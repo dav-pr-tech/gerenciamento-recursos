@@ -1,0 +1,133 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"], 
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.organograma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.organograma ul {
+  list-style-type: none;
+  padding-left: 20px;
+  position: relative;
+}
+
+.organograma ul::before {
+  content: '';
+  border-left: 1px solid #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+}
+
+.organograma li {
+  margin: 20px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.organograma li::before {
+  content: '';
+  border-top: 1px solid #000;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 20px;
+  height: 1px;
+}
+
+.node {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"], 
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.results p {
+  margin: 5px 0;
+}
